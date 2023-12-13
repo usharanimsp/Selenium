@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-02T10:02:07 IST" name="Default suite" finished-at="2023-02-02T10:02:19 IST" duration-ms="12923">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T10:02:07 IST" name="Default test" finished-at="2023-02-02T10:02:19 IST" duration-ms="12923">
+      <class name="com.movie.Pushpa_Project.Pushpa_Project_Runner">
+        <test-method is-config="true" signature="browser_Launch()[pri:0, instance:com.movie.Pushpa_Project.Pushpa_Project_Runner@7ea9e1e2]" started-at="2023-02-02T10:02:07 IST" name="browser_Launch" finished-at="2023-02-02T10:02:08 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Launch -->
+        <test-method signature="imdb_Launch()[pri:1, instance:com.movie.Pushpa_Project.Pushpa_Project_Runner@7ea9e1e2]" started-at="2023-02-02T10:02:08 IST" name="imdb_Launch" finished-at="2023-02-02T10:02:11 IST" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imdb_Launch -->
+        <test-method signature="imdb_Search()[pri:2, instance:com.movie.Pushpa_Project.Pushpa_Project_Runner@7ea9e1e2]" started-at="2023-02-02T10:02:11 IST" name="imdb_Search" finished-at="2023-02-02T10:02:19 IST" duration-ms="7902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imdb_Search -->
+        <test-method is-config="true" signature="close_Driver()[pri:0, instance:com.movie.Pushpa_Project.Pushpa_Project_Runner@7ea9e1e2]" started-at="2023-02-02T10:02:19 IST" name="close_Driver" finished-at="2023-02-02T10:02:19 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Driver -->
+      </class> <!-- com.movie.Pushpa_Project.Pushpa_Project_Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

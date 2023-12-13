@@ -1,0 +1,20 @@
+package com.programs;
+
+public class Sample2 {
+public static void main(String[] args) {
+	java.lang.String s1="Hello world";
+	java.lang.String r = null;
+	
+	for (int i = s1.length()-1; i >=0; i--) 
+	{
+		System.out.print(s1.charAt(i));
+	}
+	// 
+	for (int i1=s1.length();i1>=0;i1--)
+	{
+		 r=r+s1.charAt(i1);
+	}
+}
+
+
+}

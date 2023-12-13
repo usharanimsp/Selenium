@@ -1,0 +1,58 @@
+Sapient Interview Question:
+
+1.Introduce yorself
+2.Explain about your project work
+3.Polymorphism
+4.Method overloading and method overridding
+5.Interface
+6.Constructor and method
+7.Listener
+8.Hashmap
+9.Hashtable
+10.Expection
+11.How will you click the dropdown in the webpage
+12.In a webpage there is a i frame you want to click
+ and thn return back to parent window how will you handle it tell me a syntax
+13.In webpage there is a pop up message how will you handle it
+14.how to take a screenshot in selenium
+15.in selenium some time you are not able to interact with it by that time what will you use it
+16.in a action class you want to right click what action will you use it
+17.what are the locators in selenium
+18.what is a xpath
+19.what is Gitbash
+20.what is git commit
+21.what is git pull used for
+22.what is a use of git merge 
+23.what is a use of cicd pipeline in jenkin
+24.what is a use jira tool
+24.have u write a testcase in jira tool
+25.what are annotation used in testng
+26.what is parallel testing in testng
+27.what is scenario and sceanario outline
+28.what is pom
+29.what is page object factory
+30.what is hooks
+31.what is rest api and soap api
+32.what http protocol used in restapi
+33.tell me a workflow of api automation u have worked on
+34.what is collection in postman
+35.what is path param and query param
+36.what are a status code
+37.how will over come a cookies in api write a syntaxcode
+38.what is shiftleft
+39.what are library used in framework
+40.write a syntax for the read and write the excel sheet in datadriven framework
+41.what is a use of pom in selenium
+42.how will u have json format in api
+43.have u done a any documentation work in api
+44.what are non functional testing
+45.what is agile methodology
+46.what are the scrum ceremonies
+47.what is scrum meeting
+48.what is grid in selenium
+49.how will you have response code
+50.what is Rest
+51.what is RTM
+52.write a program - repetative word count and also the frequency of the word in the string
+53.write a program - there is a two array with repeatative number ,u want to merge two array and combine a one
+array without repeting the number.

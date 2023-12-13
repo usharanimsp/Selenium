@@ -1,0 +1,133 @@
+1) List vs Set.
+
+1.List is index based.
+2.List allows duplicate values.
+3.It prints in insertion order.
+4.More than 1 null value can be given.
+5.Array list,Linked list and Vector are the implementations of List.
+
+1.Set is value based.
+2.Set does not allows duplicate values.
+3.It prints in random order.
+4.Only once null value can be given.
+5.Hash set,linked hash set and tree set are the implementations of Set.
+
+2) List vs Map
+
+1.List is index based.
+2.List allows duplicate values.
+3.It prints in insertion order.
+4.More than 1 null value can be given.
+5.Array list,Linked list and Vector are the implementations of List.
+
+1.Map is key and value pair and it is Key based.
+2.In map,Key does not allow duplicates and value allows duplicates.
+3.It prints in random order.
+4.Map allows 1 null key and multiple null values.
+5.Hash map,Linked hash map and tree map are the implementations of Map.
+
+3) Set vs Map
+
+1.Set is value based.
+2.Set cannot have duplicate values.
+3.Set can be iterated with keyset() and entryset() methods.
+4.It prints in random order.
+
+1.Map is key based.
+2.Map has unique key and can have same value for different keys.
+3.Map cannot be iterated,it should be converted into set to iterate the values.
+4.It prints in random order.
+
+4) List vs Linked list
+
+1.In list,values are stored sequentially in memory.
+2.Values are stored one after the other.
+2.values can be accessed faster in list.
+3.Insertion and deletion of values are slower.
+
+1.Linked list values are not stored sequentially.
+2.Each value holds the address of the next value.
+3.Accessing values in linked list is slower.
+4.Insertion and deletion of values is faster.
+
+5) Hashmap vs HashSet
+
+1.Hashmap is the implementation of Map.
+2.It stores the elements in key value pair.
+3.Put method is used to add elements.
+4.It retrieves the element faster.
+5.It allows 1 null key and multiple null values.
+
+1.HashSet is the implementation of Set.
+2.It stores the elements in objects.
+3.add method is used to add elements.
+4.It retrieves the element slower compared to hashmap.
+5.It allows only 1 null value.
+
+6) Treemap vs Treeset
+
+1.Treemap is the implementation of Map.
+2.It stores the elements in key value pair.
+3.The keys are sorted in treemap.
+4.It allows duplicate values.
+
+1.Treeset is the implementation of Set.
+2.It stores the elements in objects.
+3.The objects are sorted in treeset.
+4.It does not allow duplicate values.
+
+7) Hashmap vs Hashtable
+
+1.Hashmap is non-synchronized.
+2.It is not thread safe.
+3.It allows 1 null key and multiple null values.
+4.It is faster.
+5.It can be traversed by iterator.
+
+1.Hashtable is syncronized.
+2.It is thread safe.
+3.It does not allow any null key or value.
+4.It is slower.
+5.It can be traversed by iterator and enumerator.
+
+8) Map vs Hashmap
+
+1.Map is an interface.
+2.It has unique key-value pair.
+3.It does not allow null values.
+4.Hash map,Linked hash map and tree map are the implementations of Map.
+
+1.Hashmap is a class.
+2.It can have duplicate values.
+3.It allows 1 null value.
+4.Hashmap implements Map interface 
+
+
+9) Array vs Arraylist
+
+1.Array is both single and multidimensional.
+2.For and Foreach is used to iterate in Array.
+3.length keyword is used to get the size Array.
+4.It is static with fixed length.
+5.It is faster since it is static.
+6.= operator is used to store elements.
+
+1.Arraylist is single dimensional.
+2.Iterator is used to iterate Arraylist.
+3.Size() method is used to get the size of Arraylist.
+4.It is dynamic and can be changed when needed.
+5.It is slower since it is dynamic.
+6.add() method is used to store elements.
+
+10) Arraylist vs Linkedlist
+
+1.In Arraylist, insertion and deletion is difficult.
+2.Searching and retrieving is easier.
+3.It is asynchronized.
+4.It is not thread safe but faster.
+
+1.In Linkedlist, insertion and deletion is easier.
+2.Searching and retrieving is difficult.
+3.It is synchronized.
+4.It is thread safe but slower.
+

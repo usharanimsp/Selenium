@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <define name="FB">
+  <include name="Url"></include>
+  <include name="Login"></include>
+  </define>
+  
+  <run>
+  <include name="FB"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.Demo_Maven_Project.Testng_Concepts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

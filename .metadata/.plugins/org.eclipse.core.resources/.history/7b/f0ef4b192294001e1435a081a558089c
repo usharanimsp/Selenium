@@ -1,0 +1,22 @@
+package com.pgms;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Meeso {
+	public static WebDriver driver;
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\durga\\eclipse-workspace\\Selenium_Pgms\\Driver\\chromedriver.exe");
+		driver= new ChromeDriver();
+		driver.navigate().to("https://www.meesho.com/");
+		Thread.sleep(3000);
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy(0,500)","" );
+		driver.manage().window().maximize();
+	}
+
+}
